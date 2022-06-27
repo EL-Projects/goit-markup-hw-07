@@ -1,0 +1,100 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-join-us {
+  margin-left: 70px;
+}
+
+.footer-contact {
+  margin-top: 20px;
+}
+.footer-contact-mail {
+  margin-top: 9px;
+}
+.footer-contact-tel {
+  margin-top: 9px;
+}
+
+/* foter subscribe form */
+.footer-subscribe {
+  margin-left: 93px;
+}
+
+.footer-subscribe-input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  width: 358px;
+  height: 50px;
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+  padding: 15px 0 15px 16px;
+}
+.footer-subscribe-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  border: rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.footer-subscribe-icon {
+  margin-left: 10px;
+  fill: var(--white-color);
+}
+.footer {
+  background: #2f303a;
+}
+
+.footer-contact-adress-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-contact-adress-link:hover,
+.footer-contact-adress-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: var(--accent-color);
+}
