@@ -5,10 +5,12 @@
 }
 .masters-social-item {
   display: flex;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
-.masters-social-item:not(:last-child) {
-  margin-right: 10px;
-}
+
 .masters-social-list-link {
   display: flex;
   justify-content: center;
@@ -19,21 +21,22 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 .masters-social-icon {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--social-icon-color);
-}
-.masters-social-list-link:hover,
-.masters-social-list-link:focus {
-  background-color: var(--accent-color);
-}
 
-.masters-social-list-link:hover .masters-social-icon,
-.masters-social-list-link:focus .masters-social-icon {
-  fill: var(--white-color);
+  .masters-social-list-link:hover &,
+  .masters-social-list-link:focus & {
+    fill: var(--white-color);
+  }
 }
 
 // footer
@@ -60,15 +63,18 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
+
 .footer-social-icon {
   fill: var(--white-color);
-}
-.footer-social-list-link:hover .footer-social-icon,
-.footer-social-link:focus .footer-social-icon {
-  fill: var(--white-color);
-}
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-  background-color: var(--accent-color);
+
+  .footer-social-list-link:hover &,
+  .footer-social-link:focus & {
+    fill: var(--white-color);
+  }
 }
