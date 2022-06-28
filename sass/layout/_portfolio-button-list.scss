@@ -3,10 +3,10 @@
   display: flex;
   justify-content: center;
 }
-.portfolio-button-item:not(:last-child) {
+.portfolio-button__item:not(:last-child) {
   margin-right: 8px;
 }
-.portfolio-button {
+.portfolio__button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
