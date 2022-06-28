@@ -8,17 +8,17 @@
   align-items: baseline;
 }
 
-.footer-join-us {
+.footer-social {
   margin-left: 70px;
 }
 
 .footer-contact {
   margin-top: 20px;
 }
-.footer-contact-mail {
+.footer-contact__mail {
   margin-top: 9px;
 }
-.footer-contact-tel {
+.footer-contact__tel {
   margin-top: 9px;
 }
 
@@ -28,7 +28,7 @@
   margin-left: 93px;
 }
 
-.footer-subscribe-input {
+.footer-subscribe__input {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -43,7 +43,7 @@
   padding: 15px 0 15px 16px;
 }
 
-.footer-subscribe-btn {
+.footer-subscribe__btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -61,28 +61,14 @@
   margin-left: 12px;
   cursor: pointer;
 }
-.footer-subscribe-icon {
+.footer-subscribe__icon {
   margin-left: 10px;
   fill: var(--white-color);
 }
 
-.footer-contact-adress-link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--white-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-  }
-}
-
-.footer-contact-link {
+.footer-contact__mail,
+.footer-contact__tel,
+.footer-contact__adress {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -97,4 +83,8 @@
   &:focus {
     color: var(--accent-color);
   }
+}
+
+.footer-contact__adress {
+  color: var(--white-color);
 }

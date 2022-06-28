@@ -1,4 +1,4 @@
-.hero-title {
+.hero__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -7,7 +7,7 @@
   text-transform: uppercase;
   color: var(--title-color);
 }
-.about-overlay-title {
+.about__title {
   display: block;
   font-style: normal;
   font-weight: 700;
@@ -28,7 +28,7 @@
   padding-top: 27px;
   padding-bottom: 27px;
 }
-.masters-name-title {
+.masters__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -38,7 +38,7 @@
   color: var(--title-color);
 }
 
-.footer-social-title {
+.footer-social__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -47,7 +47,7 @@
   color: var(--white-color);
 }
 
-.footer-subscribe-title {
+.footer-subscribe__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
